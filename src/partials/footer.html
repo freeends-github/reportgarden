@@ -1,0 +1,100 @@
+<footer>
+    <div class="container">
+        <div class="nav">
+            <p>Navigation</p>
+            <a href="#">Home</a>
+            <a href="#">Plans & Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Case Studies</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav">
+            <p>Resources</p>
+            <a href="#">Request a Demo</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Partners</a>
+            <a href="#">Press</a>
+            <a href="#">Responsible Disclosure</a>
+        </div>
+        <div class="nav">
+            <p>Tools</p>
+            <a href="#">Request a Demo</a>
+            <a href="#"> Privacy Policy</a>
+            <a href="#">Partners</a>
+            <a href="#">Press</a>
+            <a href="#">Responsible Disclosure</a>
+            
+        </div>
+        <div class="cnt nav">
+            <p>Contact Us</p>
+                <a href="tel:+1 212 946 2700">@@tel</a>
+                <a href="mailto:dmcct@rapidtables.com">@@m1</a>
+                <a href="mailto:dmcct@rapidtables.com">@@m2</a>
+           
+            <div class="f2">@@f1 <br> @@f2 <br>@@f3</div>
+        </div>
+    </div>
+   
+</footer>
+
+<script src="js/all.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+     $('.slider').slick({
+        arrows: false,
+        dots:true,
+        // speed:300,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        // variableWidth: true,
+        // variableheight: true
+        // prevArrow : $(".left_arrow"),
+        // nextArrow : $(".right_arrow"),
+        responsive: [
+    {
+      breakpoint: 1623,
+      settings: {
+       // centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    }
+    // {
+    //   breakpoint: 600,
+    //   settings: {
+    //     slidesToShow: 2,
+    //     slidesToScroll: 2
+    //   }
+    // },
+    // {
+    //   breakpoint: 480,
+    //   settings: {
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    //   }
+    // }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+    });
+ 
+    
+});
+//     $(window).resize(function() {
+//     var current = $('.slider').slickCurrentSlide();
+//     $('.slider').slickGoTo(current);
+// });
+
+
+</script>
+</body>
+</html>
